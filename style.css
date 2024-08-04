@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top {
+    background-color: #f55951;
+    position: sticky;
+    top: 0;
+}
+
+.header-button {
+
+    background-color: #f55951;
+    border: #f55951, solid 2px;
+}
+
+.content-one {
+    height: 550px;
+}
+
+.row {
+    height: 500px;
+    font-family: sans-serif;
+
+}
+
+a {
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+a:hover {
+    cursor: pointer;
+    text-underline-offset: 2px solid black;
+}
+
+.content-one {
+    background-color: #ffffff;
+}
+
+.main-image {
+    animation-name: example;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes example {
+    from {
+        top: 0px;
+    }
+
+    to {
+        top: 200px;
+        background-color: blue;
+    }
+}
+
+.content-two {
+    height: 500px;
+}
+
+.row-two {
+    height: 450px;
+}
+
+.col-one {
+    border-radius: 10px;
+    height: 400px;
+    border: 1px solid black;
+
+}
+
+.col-two {
+    border-radius: 10px;
+    height: 400px;
+    border: 1px solid black;
+}
+
+.col-three {
+    border-radius: 10px;
+    border: 1px solid black;
+    height: 400px;
+}
+
+.col-five-long {
+    border-radius: 10px;
+    height: 600px;
+}
+
+.col-five {
+    border-radius: 10px;
+    border: 1px solid black;
+    height: 400px;
+}
+
+
+
+.row-three {
+    height: 170px;
+}
+
+.heading {
+    height: 100px;
+    padding-top: 50px;
+    justify-content: space-evenly;
+}
+
+.row-three p {
+    margin-bottom: 150px;
+    height: 50px;
+}
+
+.container-three {
+    height: 400px;
+}
+
+.col-four {
+    height: 300px;
+}
+
+.row-four {
+    height: 300px;
+}
+
+.col-four {
+    height: 150px;
+}
+
+.container-four {
+    height: 150px;
+}
+
+.canvabar {
+    border: 1px sloid;
+    border-radius: 20px;
+    width: 90%;
+    margin-left: 60px;
+    height: 300px;
+}
+
+.row-canva {
+    height: 180px;
+
+}
+
+.col-canva {
+    height: 175px;
+    border-right: solid 4px gray;
+}
+
+.h-five {
+    padding: 10px;
+    color: gray;
+    border: solid 2px antiquewhite;
+    border-radius: 20px;
+    height: 50px;
+    text-align: center;
+    
+}
+.h-five:hover{
+    cursor: pointer;
+    background-color: #f55951;
+    color: white;
+}
